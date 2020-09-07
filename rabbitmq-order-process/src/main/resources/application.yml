@@ -1,0 +1,18 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /
+
+spring:
+  #datasource
+  datasource:
+    url: jdbc:mysql://192.168.1.155:3306/rabbitmq?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC&allowMultiQueries=true
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: fslh8840
+    type: com.alibaba.druid.pool.DruidDataSource
+    druid:
+      test-on-borrow: true
+      test-while-idle: true
+
+

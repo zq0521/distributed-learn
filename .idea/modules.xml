@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/distributed-learning.iml" filepath="$PROJECT_DIR$/distributed-learning.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rabbitmq-advancedfeatures/rabbitmq-advancedfeatures.iml" filepath="$PROJECT_DIR$/rabbitmq-advancedfeatures/rabbitmq-advancedfeatures.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rabbitmq-order-process/rabbitmq-order-process.iml" filepath="$PROJECT_DIR$/rabbitmq-order-process/rabbitmq-order-process.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rabbitmq-quickstart/rabbitmq-quickstart.iml" filepath="$PROJECT_DIR$/rabbitmq-quickstart/rabbitmq-quickstart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rabbitmq-springwithrabbitmq/rabbitmq-springwithrabbitmq.iml" filepath="$PROJECT_DIR$/rabbitmq-springwithrabbitmq/rabbitmq-springwithrabbitmq.iml" />
+    </modules>
+  </component>
+</project>

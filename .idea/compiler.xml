@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="rabbitmq-advancedfeatures" />
+        <module name="rabbitmq-order-process" />
+        <module name="rabbitmq-quickstart" />
+        <module name="rabbitmq-springwithrabbitmq" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="distributed-learning" target="1.8" />
+      <module name="rabbitmq-advancedfeatures" target="1.8" />
+      <module name="rabbitmq-order-process" target="1.8" />
+      <module name="rabbitmq-quickstart" target="1.8" />
+      <module name="rabbitmq-springwithrabbitmq" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
