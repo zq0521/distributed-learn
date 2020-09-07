@@ -1,2 +1,3 @@
 # distributed-learn
-分布式学习---代码示例
+rabbitmq-with-spring/springBoot
+
