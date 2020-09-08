@@ -3,7 +3,6 @@ package cn.zq0521.controller;
 import cn.zq0521.entity.Order_details;
 import cn.zq0521.entity.Order_master;
 import cn.zq0521.service.OrderService;
-import cn.zq0521.upstream.OrderUpstreamService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -95,8 +94,7 @@ public class OrderController {
         }
 
         //发送消息至broker---->通知库存
-        OrderUpstreamService orderUpstreamService = new OrderUpstreamService();
-        orderUpstreamService.orderSuccess(order_details1);
+        orderService.sendMessageToBroker(order_details1);
 
 
         return "订单创建成功，订单为：" + order_master.getOrder_code();

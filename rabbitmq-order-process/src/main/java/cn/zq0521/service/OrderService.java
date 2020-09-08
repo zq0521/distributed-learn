@@ -28,6 +28,12 @@ public interface OrderService {
      */
     void addOrderDetail(List<Order_details> list);
 
+    /**
+     * 发送订单消息至 消息队列
+     * @param order_details
+     */
+    void sendMessageToBroker(Order_details order_details);
+
 
 
 
