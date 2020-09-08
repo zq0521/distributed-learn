@@ -24,6 +24,6 @@ hs_err_pid*
 
 
 #mavan files
-*.imi
+*.iml
 *.idea
 
