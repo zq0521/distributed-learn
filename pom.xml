@@ -8,6 +8,8 @@
         <module>rabbitmq-advancedfeatures</module>
         <module>rabbitmq-order-process</module>
         <module>rabbitmq-springwithrabbitmq</module>
+        <module>rabbitmq-springboot-consumer</module>
+        <module>rabbitmq-springboot-producer</module>
     </modules>
 
     <parent>

@@ -4,7 +4,6 @@ import cn.zq0521.entity.Order_details;
 import cn.zq0521.service.OrderService;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.sun.org.apache.bcel.internal.generic.FADD;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.amqp.core.Message;
 import org.springframework.amqp.core.MessageProperties;
@@ -108,7 +107,7 @@ public class MessageDelegate {
          * 订单状态还是为2，失败，回调order服务
          */
 
-        order_status=1;
+        order_status = 1;
 
         if (order_status == 1) {
             log.info("延时检查通过------->订单完成，订单状态已变更，已通知用户发货成功");
