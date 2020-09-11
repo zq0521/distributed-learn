@@ -10,6 +10,8 @@
         <module>rabbitmq-springwithrabbitmq</module>
         <module>rabbitmq-springboot-consumer</module>
         <module>rabbitmq-springboot-producer</module>
+        <module>rabbitmq-reliability-dtt-order</module>
+        <module>rabbitmq-reliability-dtt-product</module>
     </modules>
 
     <parent>
