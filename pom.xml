@@ -12,6 +12,7 @@
         <module>rabbitmq-springboot-producer</module>
         <module>rabbitmq-reliability-dtt-order</module>
         <module>rabbitmq-reliability-dtt-product</module>
+        <module>rabbitmq-reliabledelivery-deleycheck-manager</module>
     </modules>
 
     <parent>

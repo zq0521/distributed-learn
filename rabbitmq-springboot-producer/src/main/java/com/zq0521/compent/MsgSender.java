@@ -35,7 +35,7 @@ public class MsgSender {
         //构建消息对象
         org.springframework.messaging.Message message = MessageBuilder.createMessage(msg, messageHeaders);
 
-        //构建correlationDate 用于做可靠性传递，ID：必须全局唯一，根据业务规则
+        //构建correlationDate 用于做可靠性传递，ID：必 须全局唯一，根据业务规则
         CorrelationData correlationData = new CorrelationData(UUID.randomUUID().toString());
         //开启确认模式
         rabbitTemplate.setConfirmCallback(new ConfirmCallBack());
@@ -78,13 +78,10 @@ public class MsgSender {
         System.out.println("orderJson1:" + orderJson1);
         rabbitTemplate.convertAndSend("springboot.direct.exchange", "springboot.key3", message1, correlationData);
 
-
         /**
          * 直接发送对象
          */
         rabbitTemplate.convertAndSend("springboot.direct.exchange", "springboot.key3", order, correlationData);
-
-
     }
 
 
