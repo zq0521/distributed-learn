@@ -4,15 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <modules>
-        <module>rabbitmq-quickstart</module>
-        <module>rabbitmq-advancedfeatures</module>
-        <module>rabbitmq-order-process</module>
-        <module>rabbitmq-springwithrabbitmq</module>
-        <module>rabbitmq-springboot-consumer</module>
-        <module>rabbitmq-springboot-producer</module>
-        <module>rabbitmq-reliability-dtt-order</module>
-        <module>rabbitmq-reliability-dtt-product</module>
-        <module>rabbitmq-reliabledelivery-deleycheck-manager</module>
+        <module>rabbitmq-management</module>
+        <module>rocketmq-management</module>
     </modules>
 
     <parent>

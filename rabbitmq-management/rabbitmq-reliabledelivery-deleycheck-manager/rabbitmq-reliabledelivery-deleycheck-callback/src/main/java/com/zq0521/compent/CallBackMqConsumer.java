@@ -68,7 +68,7 @@ public class CallBackMqConsumer {
                 log.error("插入消息记录异常：{}", e);
                 //数据业务异常，需要删除锁，进行重新操作
                 if (e instanceof MsgException) {
-                    //删除锁
+                    //删除锁1
                     redisTemplate.delete(LOCK_KEY + msgTxtBo.getMsgId());
                 }
 
