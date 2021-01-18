@@ -1,0 +1,14 @@
+E:\work\idea_project\distributed-learning\distributed-learn\rocketmq-management\springboot-rocketmq\src\main\java\com\zq\rocketmq\config\RocketMQConsumer.java
+E:\work\idea_project\distributed-learning\distributed-learn\rocketmq-management\springboot-rocketmq\src\main\java\com\zq\rocketmq\basic\SpringProducer.java
+E:\work\idea_project\distributed-learning\distributed-learn\rocketmq-management\springboot-rocketmq\src\main\java\com\zq\rocketmq\domain\User.java
+E:\work\idea_project\distributed-learning\distributed-learn\rocketmq-management\springboot-rocketmq\src\main\java\com\zq\rocketmq\domain\OrderPaidEvent.java
+E:\work\idea_project\distributed-learning\distributed-learn\rocketmq-management\springboot-rocketmq\src\main\java\com\zq\rocketmq\RocketMQSBApplication.java
+E:\work\idea_project\distributed-learning\distributed-learn\rocketmq-management\springboot-rocketmq\src\main\java\com\zq\rocketmq\domain\ProductWithPayload.java
+E:\work\idea_project\distributed-learning\distributed-learn\rocketmq-management\springboot-rocketmq\src\main\java\com\zq\rocketmq\handler\impl\OrderPaidEventProcessorImpl.java
+E:\work\idea_project\distributed-learning\distributed-learn\rocketmq-management\springboot-rocketmq\src\main\java\com\zq\rocketmq\handler\impl\UserProcessImpl.java
+E:\work\idea_project\distributed-learning\distributed-learn\rocketmq-management\springboot-rocketmq\src\main\java\com\zq\rocketmq\handler\MessageProcessor.java
+E:\work\idea_project\distributed-learning\distributed-learn\rocketmq-management\springboot-rocketmq\src\main\java\com\zq\rocketmq\handler\JsonUtil.java
+E:\work\idea_project\distributed-learning\distributed-learn\rocketmq-management\springboot-rocketmq\src\main\java\com\zq\rocketmq\handler\impl\ProductWithPayloadProcessorImpl.java
+E:\work\idea_project\distributed-learning\distributed-learn\rocketmq-management\springboot-rocketmq\src\main\java\com\zq\rocketmq\constant\MessageConstant.java
+E:\work\idea_project\distributed-learning\distributed-learn\rocketmq-management\springboot-rocketmq\src\main\java\com\zq\rocketmq\basic\MessageListen.java
+E:\work\idea_project\distributed-learning\distributed-learn\rocketmq-management\springboot-rocketmq\src\main\java\com\zq\rocketmq\basic\SpringConsumer.java

@@ -1,4 +1,4 @@
-package com.zq.rocketmq;
+package com.zq;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -7,7 +7,12 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class RocketMQSBApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(RocketMQSBApplication.class, args);
+
+        try {
+            SpringApplication.run(RocketMQSBApplication.class, args);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
 }

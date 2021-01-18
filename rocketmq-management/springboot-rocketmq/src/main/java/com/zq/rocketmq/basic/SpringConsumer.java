@@ -13,8 +13,11 @@ import org.springframework.stereotype.Component;
 @RocketMQMessageListener(consumerGroup = "MyConsumerGroup", topic = "TopicTest", consumeMode = ConsumeMode.CONCURRENTLY)
 public class SpringConsumer implements RocketMQListener<String> {
 
+
     @Override
     public void onMessage(String message) {
         System.out.printf("%s%n", message);
     }
+
+
 }

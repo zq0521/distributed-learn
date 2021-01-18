@@ -1,0 +1,14 @@
+com\zq\rocketmq\basic\SpringConsumer.class
+com\zq\rocketmq\domain\ProductWithPayload.class
+com\zq\rocketmq\handler\impl\UserProcessImpl.class
+com\zq\rocketmq\basic\MessageListen.class
+com\zq\rocketmq\handler\impl\OrderPaidEventProcessorImpl.class
+com\zq\rocketmq\basic\SpringProducer.class
+com\zq\rocketmq\domain\User.class
+com\zq\rocketmq\config\RocketMQConsumer.class
+com\zq\rocketmq\RocketMQSBApplication.class
+com\zq\rocketmq\constant\MessageConstant.class
+com\zq\rocketmq\domain\OrderPaidEvent.class
+com\zq\rocketmq\handler\JsonUtil.class
+com\zq\rocketmq\handler\MessageProcessor.class
+com\zq\rocketmq\handler\impl\ProductWithPayloadProcessorImpl.class
